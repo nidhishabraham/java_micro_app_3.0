@@ -9,8 +9,8 @@ Pre-requisites:
     
 Clone code from github:
 -------
-    git clone https://github.com/vikash-kumar01/spring-cloud-kubernetes.git
-    cd spring-cloud-kubernetes/kubernetes-configmap-reload
+    git clone https://github.com/nidhishabraham/java_micro_app_3.0.git
+    cd java_micro_app_3.0/kubernetes-configmap-reload
     
 Build Maven Artifact:
 -------
@@ -18,7 +18,7 @@ Build Maven Artifact:
  
 Build Docker image for Springboot Application
 --------------
-    docker build -t vikashashoke/kubernetes-configmap-reload .
+    docker build -t nidhishabraham/kubernetes-configmap-reload .
   
 Docker login
 -------------
@@ -26,7 +26,7 @@ Docker login
     
 Push docker image to dockerhub
 -----------
-    docker push vikashashoke/kubernetes-configmap-reload
+    docker push nidhishabraham/kubernetes-configmap-reload
     
 Deploy Spring Application:
 --------
